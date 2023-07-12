@@ -1,0 +1,145 @@
+body {
+    /* background image with gradient */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/bg3.jpg');  */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    /* font-family: 'Roboto', sans-serif; */
+    font-family: 'Montserrat', sans-serif;
+
+}
+
+/* .container-bg{
+
+    border: #000000;
+} */
+
+
+#login-jumbotron {
+    /* set jumbotron middle of page */
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: left;
+    font-size: small;
+    background-image: url('../../assets/bg3.jpg');
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.LogIn {
+    background-color: #DB7A33;
+    border-color: #DB7A33;
+}
+.LogIn:hover {
+    background-color: #db7933cb;
+    border-color: #DB7A33;
+}
+
+
+#rechLogo {
+    /* set width */
+    width: 80px;
+    /* set height */
+    height: 80px;
+    border-radius: 70%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    margin-top: -30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    /* drop shadow */
+    /* -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 0px 0px 5px 10px rgba(0, 0, 0, 0.75);*/
+    box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.50); 
+
+    
+}
+#rechLogo:hover {
+    width: 90px;
+    /* set height */
+    height: 90px;
+    border-radius: 70%;
+}
+
+input::placeholder {
+    font-size: 12px;
+}
+
+
+.hr-text {
+    line-height: 1em;
+    position: relative;
+    outline: 0;
+    border: 0;
+    color: black;
+    text-align: center;
+    height: 1.5em;
+    opacity: .5;
+}
+
+.hr-text:before {
+    content: '';
+    background: linear-gradient(to right, transparent, #818078, transparent);
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 100%;
+    height: 1px;
+}
+
+.hr-text:after {
+    content: attr(data-content);
+    position: relative;
+    display: inline-block;
+    color: black;
+    padding: 0 .5em;
+    line-height: 1.5em;
+    color: #000000;
+    background-color: #fcfcfa;
+    border-radius: 70px;
+  }
+
+.other-platform {
+    /* center items with space inbetween */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#googleLogo  {
+    /* set width */
+    width: 20px;
+    /* set height */
+    height: 20px;
+    margin-right: 2px;
+    opacity: 0.7;
+    
+}
+
+#googleLogo:hover{
+    width: 25px;
+    height: 25px;
+    opacity: 1.0;
+}
+
+#facebookLogo {
+    width: 20px;
+    /* set height */
+    height: 20px;
+    margin-left: 2px;
+    opacity: 0.7;
+}
+#facebookLogo:hover{
+    width: 25px;
+    /* set height */
+    height: 25px;
+    opacity: 1.0;
+}

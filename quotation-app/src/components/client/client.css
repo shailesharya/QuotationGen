@@ -1,0 +1,46 @@
+.company-card{
+    margin: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.103);
+    border-radius: 7%;
+}
+
+.company-card:hover{
+    margin: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.501);
+}
+.p-company-name{
+    font-size: smaller;
+}
+.client-logo{
+    margin-top: 10px;
+    /* rounded radious  */
+    border-radius: 50%;
+    /* width: 50%;
+    height: 50%;
+    center image
+    display: block;
+    margin: 0 auto; */
+}
+
+.a-company-name{
+    color: black;
+    text-decoration: none;
+
+}
+
+.a-company-name:hover{
+    color: black;
+    text-decoration: none;
+
+}
+
+.link{
+    padding: 10px;
+    color: grey;
+}
+
+.link:hover{
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}

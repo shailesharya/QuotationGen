@@ -1,0 +1,67 @@
+.company-card{
+    margin: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.103);
+    border-radius: 7%;
+}
+
+.company-card:hover{
+    margin: 5px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.501);
+}
+.p-company-name{
+    font-size: smaller;
+}
+.company-logo{
+    margin-top: 10px;
+    margin-bottom: 1px;    
+    width: 100px; /* width of container */
+    height: 100px; /* height of container */
+    /* border: 1px solid #ccc; border around container */
+    /* border-radius: 50%;  */
+    overflow: hidden; /* hide border radius */
+    position: relative; /* positioning context */
+    /* background: #fff;  */
+    /* box-shadow: 0 0 0 3px #fff, 0 0 0 3px #ccc;  */
+    /* create a border */
+   padding: 10px;
+}
+
+.a-company-name{
+    color: black;
+    text-decoration: none;
+
+}
+
+.a-company-name:hover{
+    color: black;
+    text-decoration: none;
+
+}
+
+.a-company-name::after{
+    color: black;
+    text-decoration: none;
+
+}
+
+
+
+.link-button{
+    color: grey;
+}
+
+.link-button:hover{
+    color: white;
+    text-decoration: none;
+}
+
+.sweet-loading{
+    /* display things in center */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* set height */
+    height: 50vh;
+
+
+}

@@ -1,0 +1,77 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.mb-3 {
+    font-size: small;
+}
+
+
+body {
+    /* background image with gradient */
+    /* background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../../assets/bg3.jpg'); */
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#addQuotationJumbotron{
+    background-color: white;
+    
+}
+
+
+.form-control-sm {
+    
+    font-size: small;
+    
+    text-align: center;
+    font-family: 1em sans-serif;
+    
+}
+
+.table {
+    text-align: center;
+    font-size: small;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    /* border-radius: 10px; */
+    padding: 10px;
+    margin: 20px;
+    width: 95%;
+}
+
+Form{
+    background-color: white;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 0 10px 0 rgba(0,0,0,0.2);
+    font-weight: bold;
+}
+
+.text-area {
+    text-align: left;
+    text-size-adjust: 10px;
+}
+
+
+Form:disabled{
+    opacity: 0.50;
+    /* opacity: 1; */
+  }
+
+.form-control:disabled{
+    background-color: white;
+    opacity: 1;
+    /* opacity: 1; */    
+    text-align: center;
+    font-weight: bold;
+
+    /* drop a shadow */
+    /* box-shadow: 0 0 5px 0 rgba(0,0,0,0.1); */
+   
+}

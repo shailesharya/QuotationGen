@@ -1,0 +1,59 @@
+#rechLogoSidebar{
+    margin-top: -150px;
+    padding-bottom: 0px;
+    width: 100%;
+    height: auto;
+    
+    
+}
+
+#rechLogoSidebar:hover{
+    width: 105%;
+    height: auto;
+    padding-bottom: 0px;
+    margin-top: -150px;
+
+}
+
+
+.side-bar {
+    padding-top: 0px;
+    /* width: 18%;
+    height: 100%; */
+    padding: 30px;
+    width: 17% !important; 
+    height: 100%;
+    overflow-y: auto; 
+    background-color: black;
+}
+
+
+/* .link{
+    padding: 10px;
+    color: grey;
+} */
+
+/* .link:hover{
+    padding: 20px;
+    color: white;
+    text-decoration: none;
+} */
+
+a.link.active {
+    color: white;
+    /* border-bottom: solid 2.5px #0E1333; */
+    font-weight: bold;
+    text-decoration: none;
+
+}
+
+a.link:hover {
+    color: white;
+    text-decoration: none;
+    /* background-color: orange;
+    border-radius: 5px; */
+}
+
+
+
+

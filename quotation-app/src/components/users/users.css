@@ -1,0 +1,18 @@
+#userPhotoUrl{
+    border-radius: 50%;
+}
+
+#userJumbotron{
+    position: absolute;
+    top: 30%;
+    left: 5%;
+    transform: translate(0%, 10%);
+    text-align: left;
+    font-size: small;
+    
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
